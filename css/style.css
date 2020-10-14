@@ -1,0 +1,295 @@
+*:focus {
+  outline: 0 !important;
+}
+.top__bar {
+  background-color: #e8e8e8;
+  line-height: 36px;
+}
+
+.top__bar__main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top__bar__right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top__bar__right__option {
+  margin-right: 20px;
+}
+
+.fa {
+  color: #333;
+  margin-right: 5px;
+}
+
+.top__bar__left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top__bar__left__option {
+  margin-right: 20px;
+}
+
+.top__bar__left__option > a {
+  color: #333;
+}
+
+.navbar-nav {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar-nav > .nav-item > a {
+  margin-right: 10px;
+  color: #333;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+#main__nav {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.img > img {
+  width: 100%;
+}
+
+.connect {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.connect__header,
+.connect__main {
+  text-align: center;
+}
+
+select {
+  color: #808080;
+  -webkit-appearance: none;
+}
+
+.filters-select {
+  background-image: url(https://www.appseconnect.com/wp-content/uploads/2018/03/tick.png);
+  background-position: 230px 17px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border: 1px solid #ddd;
+  margin-right: 15px;
+}
+.quicksearch {
+  background-image: url(https://www.appseconnect.com/wp-content/uploads/2018/03/searchicon.png);
+  background-position: 14px 16px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border: 1px solid #ddd;
+}
+.connect__row {
+  margin-top: 30px;
+}
+.erp {
+  text-align: center;
+}
+.erp img {
+  max-width: 100px;
+  padding-bottom: 10px;
+}
+.erp h3 {
+  font-size: 10px;
+  font-weight: bold;
+}
+.ecommerce {
+  text-align: center;
+}
+.ecommerce img {
+  max-width: 100px;
+  padding-bottom: 10px;
+}
+.ecommerce h3 {
+  font-size: 10px;
+  font-weight: bold;
+}
+.accounting {
+  text-align: center;
+}
+.accounting img {
+  max-width: 100px;
+  padding-bottom: 10px;
+}
+.accounting h3 {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.integration {
+  background-color: #0068f5;
+  padding-top: 45px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+.integration__head {
+  color: #ffc700;
+}
+.integration__text {
+  color: white;
+  font-size: 16px;
+}
+.integration__btn {
+  font-size: 20px;
+  border-radius: 100px;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(51, 51, 51);
+  background-color: rgb(255, 113, 44) !important;
+  background-image: none !important;
+  padding: 15px 50px;
+  color: white;
+  outline-style: none;
+}
+.customers {
+  padding-top: 25px;
+  padding-bottom: 45px;
+}
+.customers__head {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.customer__card {
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  height: 100%;
+}
+.customer__card__head {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.7em;
+  margin-bottom: 15px;
+  margin-top: 0;
+  text-align: left;
+}
+.customer__card__main {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.529em;
+  margin-bottom: 20px;
+}
+.customer__card__img {
+  display: flex;
+  align-items: center;
+}
+.customer__card__name {
+  color: #535e68;
+  font-size: 23.94px;
+  font-weight: 500;
+  line-height: 1.167em;
+}
+.customer__card__desig {
+  color: #787a7d;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.75em;
+}
+.pad-51 {
+  padding-top: 51px;
+}
+.benefits {
+  background-color: #eaeaea;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 45px;
+}
+.benefits__head {
+  font-size: 20px;
+  color: rgb(18, 103, 157);
+  padding-bottom: 40px;
+}
+.benefits__card {
+  border: 1px solid #ddd;
+  background-color: rgb(251, 251, 251) !important;
+  box-shadow: transparent 0px 0px 8px 4px inset, transparent 0px 0px 7px 3px !important;
+  padding: 20px;
+  height: 100%;
+}
+.benefits__card > img {
+  padding-bottom: 30px;
+}
+.automate {
+  background-color: #0068f5;
+  padding-bottom: 30px;
+  padding-top: 50px;
+  text-align: center;
+}
+.automate__head {
+  color: rgb(255, 199, 0);
+}
+.automate__main {
+  color: white;
+}
+.listed {
+  padding-top: 25px;
+  padding-bottom: 45px;
+}
+.listed__head {
+  text-align: center;
+  font-weight: bold;
+}
+.webinars {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer {
+  background: #272727 !important;
+  color: #fff !important;
+  padding-top: 40px !important;
+  padding-bottom: 20px !important;
+}
+.scn {
+  color: #949494;
+}
+.footer-menus {
+  font-size: 12px;
+  line-height: 0.5px;
+}
+.scn ul {
+  list-style-type: none;
+}
+footer ul li {
+  text-decoration: none;
+  color: white;
+}
+.footer-menus > p {
+  padding-bottom: 10px;
+  padding-left: 31px;
+}
+
+@media screen and (max-width: 768px) {
+  .top__bar {
+    display: none;
+  }
+  .navbar-brand > img {
+    max-width: 150px;
+  }
+  .customer__card {
+    margin-bottom: 20px;
+  }
+  body {
+    text-align: center;
+  }
+  .filters-select {
+    margin-bottom: 20px;
+  }
+  .mb-10 {
+    margin-bottom: 15px;
+  }
+}
